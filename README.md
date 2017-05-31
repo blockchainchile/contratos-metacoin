@@ -52,5 +52,5 @@ para obtener ETH de test.
 Finalmente se puede deployar los contratos en rinkeby
 
 ```
-$ npm run deploy-local
+$ npm run deploy-rinkeby
 ```
