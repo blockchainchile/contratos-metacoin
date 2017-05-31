@@ -32,7 +32,11 @@ $ npm run deploy-local
 
 ## Deployar a la testnet rinkeby
 
-Esto se hace usando un nodo publico de INFURA. Para esto debemos enviar las tx
+El blockchain público tiene una red principal y redes de prueba (conocidas como testnets) para que podamos probar nuestros contratos. Usaremos la testnet [rinkeby](https://www.rinkeby.io/).
+
+[INFURA](https://infura.io/) nos provee nodos públicos sin la necesidad de provisionarlos nosotros mismos.
+
+Haremos el deploy a esta testnet a través de un nodo público de INFURA. Para esto debemos enviar las tx
 ya firmadas. Necesitamos primero crear una semilla para generar las llaves.
 
 ```
