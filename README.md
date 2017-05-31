@@ -18,8 +18,7 @@ $ npm test
 
 ## Deployar a un nodo local
 
-Correr un nodo local en el `localhost:8545`. Este nodo puede ser un geth o parity
-conectado a cualquier blockchain. La forma mas simple es correr un `testrpc`
+Correr un cliente local (conectado a cualquier blockchain), en el `localhost:8545`. Los clientes más usados son [Geth](https://github.com/ethereum/go-ethereum) y [Parity](https://github.com/paritytech/parity), pero para un entorno de desarrollo local el más recomendado es [TestRPC](https://github.com/ethereumjs/testrpc)
 
 ```
 $ npm run deploy-local
