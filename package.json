@@ -1,0 +1,30 @@
+{
+  "name": "contratos-metacoin",
+  "version": "1.0.0",
+  "description": "Ejemplo de Contratos :: Metacoin",
+  "main": "index.js",
+  "scripts": {
+    "compile": "./node_modules/.bin/truffle compile",
+    "_deploy": "./node_modules/.bin/truffle migrate --network ",
+    "deploy-rinkeby": "npm run _deploy rinkeby",
+    "deploy-local": "npm run _deploy local",
+    "test": "./node_modules/.bin/truffle test --network in_memory",
+    "gen-seed": "node scripts/gen-seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockchainchile/contratos-metacoin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockchainchile/contratos-metacoin/issues"
+  },
+  "homepage": "https://github.com/blockchainchile/contratos-metacoin#readme",
+  "dependencies": {
+    "bitcore-mnemonic": "^1.2.5",
+    "ethereumjs-testrpc": "^3.0.3",
+    "truffle": "^3.1.2",
+    "truffle-hdwallet-provider": "0.0.3"
+  }
+}
